@@ -17,8 +17,11 @@
 }
 .rightPart {
     height: 80%;
-    width: 75%;
-    
+    width: 75%; 
+}
+
+.rightPart.false {
+    display: none;
 }
 
 .findOutMore {
