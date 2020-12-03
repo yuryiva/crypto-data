@@ -36,7 +36,7 @@ class BiggestPart extends Component {
         console.log('works!!!')
       }
         return (
-            <>
+            
                 <div className='biggestPart'>
 
                     <BigPartNav 
@@ -44,7 +44,7 @@ class BiggestPart extends Component {
                     />
                     <BigPartText className={this.state.class}/>
 
-                </div>
+                
 
                 <Switch>
                     <Route path="/big-part/first-question">
@@ -63,7 +63,7 @@ class BiggestPart extends Component {
                         <Fifth />
                     </Route>
                 </Switch>
-            </>
+                </div>
         )
     }
 }
