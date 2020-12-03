@@ -6,7 +6,7 @@ const Question2 = () => {
 
     return(
     <div className='biggestPart'>
-<sider className='leftPart'>
+<aside className='leftPart'>
 <div className='findOutMore'>FIND OUT MORE:</div>
 <div className='questions'><b>What are the Safest Ways to Store Bitcoin?</b></div>
 <div className='questions'><b>Bitcoin Exchange</b></div>
@@ -14,7 +14,7 @@ const Question2 = () => {
 <div className='questions'><b>The 10 Most Important Cryptocurrencies Other Than Bitcoin</b></div>
 <div className='questions'><b>Should You Buy Gold Or Bitcoin?</b></div>
 
-</sider>
+</aside>
 <main className='rightPart'>
     <div><b>QUESTION2 PAGE</b></div>
     <div><p>After reaching a peak in price late 2017 and subsequently fading from popularity, cryptocurrencies like Bitcoin have experienced a more modest surged once again in 2019. As this has taken place, so too have the number of publicized hacking events increased as well. Given that many investors are new to the system and may not know how to keep their investments secure, hackers are coming up with ingenious ways of stealing funds. Some of the most prominent thefts have been those that have taken place in plain sight: some hacks even blatantly reroute tokens bound for one wallet for another. The victims watch as their tokens are stolen away from them, with nothing they can do about it.</p></div>
