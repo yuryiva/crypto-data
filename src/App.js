@@ -1,5 +1,5 @@
 import './App.css';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import BiggestPart from './components/biggestPart/big-part/biggestPart'
 
 import { Switch, Route } from "react-router-dom";
@@ -10,31 +10,28 @@ import Home from './components/biggestPart/home/Home';
 
 class App extends Component {
 
-  render () {
+  render() {
 
-    return(
-        <div>
-          <header>
+    return (
+      <div>
+        <header>
           <h1>THIS IS HEADER</h1>
-          </header>
-
-        
+        </header>
         <Navbar />
         <Switch>
-        <Route exact path="/">
-            <Home/>
+          <Route exact path="/">
+        <Home />    
           </Route>
 
-          <Route  path="/big-part">
-          <BiggestPart />
+          <Route path="/big-part">
+            <BiggestPart />
           </Route>
-
         </Switch>
 
         <footer>
-        <h1>THIS IS FOOTER</h1>
+          <h1>THIS IS FOOTER</h1>
         </footer>
-        </div>
+      </div>
     )
   }
 }

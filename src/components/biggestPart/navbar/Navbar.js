@@ -6,7 +6,6 @@ const Navbar = () => (
     <nav><ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/big-part">big-part</Link></li>
-        
     </ul></nav>
 )
 

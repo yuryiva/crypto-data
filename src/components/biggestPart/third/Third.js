@@ -1,5 +1,7 @@
 const Third = () => (
-    <h1>THIS IS THIRD</h1>
+    <div className='questions'>
+        <b>Should You Buy Gold Or Bitcoin?</b>
+    </div>
 )
 
 export default Third;

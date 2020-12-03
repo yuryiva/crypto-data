@@ -1,5 +1,7 @@
 const Fourth = () => (
-    <h1>THIS IS FOURTH</h1>
+    <div className='questions'>
+        <b>What Are the Advantages of Paying With Bitcoin?</b>
+    </div>
 )
 
 export default Fourth;
